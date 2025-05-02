@@ -1,0 +1,24 @@
+[buildPlans.IosevkaCustom]
+family = "Iosevka Custom"
+spacing = "fixed"
+serifs = "sans"
+noCvSs = true
+exportGlyphNames = false
+
+  [buildPlans.IosevkaCustom.variants]
+  inherits = "ss17"
+
+[buildPlans.IosevkaCustom.weights.Regular]
+shape = 400
+menu = 400
+css = 400
+
+[buildPlans.IosevkaCustom.weights.Bold]
+shape = 700
+menu = 700
+css = 700
+
+[buildPlans.IosevkaCustom.weights.ExtraLight]
+shape = 200
+menu = 200
+css = 200
